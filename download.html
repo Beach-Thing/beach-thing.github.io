@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download BeachThing Firmware</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        .download-section {
+            margin-bottom: 30px;
+        }
+        .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #1DB954;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .download-button:hover {
+            background-color: #1ED760;
+        }
+        .note {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .platform-section {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Download BeachThing Firmware</h1>
+    <p>All the tools and firmware you need to get started with BeachThing on your Car Thing.</p>
+</header>
+
+<div class="content">
+    <h2>Firmware Download</h2>
+    <p>Click below to download the firmware file for your Car Thing:</p>
+    <a href="https://github.com/PepperMarioYT/Beach-Thing/releases/latest/download/beachthing-firmware.zip" class="download-button">Download Firmware</a>
+
+    <div class="download-section">
+        <h2>Tools & Helpers</h2>
+        <p>These tools are required for installing and configuring BeachThing:</p>
+
+        <h3>Superbird Tool</h3>
+        <p>The Superbird tool allows you to install the BeachThing firmware onto your Car Thing. You can download it below:</p>
+        <a href="https://github.com/PepperMarioYT/Beach-Thing/releases/latest/download/superbird-tool.zip" class="download-button">Download Superbird Tool</a>
+
+        <h3>PC Helper</h3>
+        <p>If you prefer a graphical interface for configuring and installing BeachThing, the PC Helper tool will make the process easier. It’s also required to configure BeachThing and type commands in a simple interface. Choose your platform below:</p>
+
+        <div class="platform-section">
+            <h4>Windows</h4>
+            <a href="https://github.com/PepperMarioYT/Beach-Thing/releases/latest/download/pc-helper-setup.exe" class="download-button">Download EXE (Windows)</a> or 
+            <a href="https://github.com/PepperMarioYT/Beach-Thing/releases/latest/download/pc-helper-setup.msi" class="download-button">Download MSI (Windows)</a>
+        </div>
+
+        <div class="platform-section">
+            <h4>macOS</h4>
+            <a href="https://github.com/PepperMarioYT/Beach-Thing/releases/latest/download/pc-helper.dmg" class="download-button">Download DMG (macOS)</a>
+        </div>
+
+        <div class="platform-section">
+            <h4>Linux</h4>
+            <a href="https://github.com/PepperMarioYT/Beach-Thing/releases/latest/download/pc-helper.deb" class="download-button">Download DEB (Ubuntu/Debian)</a> or 
+            <a href="https://github.com/PepperMarioYT/Beach-Thing/releases/latest/download/pc-helper.rpm" class="download-button">Download RPM (RedHat/Fedora)</a> or 
+            <a href="https://github.com/PepperMarioYT/Beach-Thing/releases/latest/download/pc-helper.pkg.tar.xz" class="download-button">Download TAR.XZ (Arch/Manjaro)</a>
+        </div>
+
+        <h3>Phone Helper</h3>
+        <p>If you don’t have access to a PC or prefer using your phone as the controller device, the Phone Helper is your solution. Download the APK for Android below:</p>
+        <a href="https://github.com/PepperMarioYT/Beach-Thing/releases/latest/download/phone-helper.apk" class="download-button">Download APK (Android)</a>
+
+        <h3>Server Setup</h3>
+        <p>The server is necessary for the Car Thing to communicate with the Pi (and to avoid the "192.168.1.1 can't be reached" error). It also allows the Pi to connect to speakers, the microphone, GPS, and accelerometer, and adjust volume dynamically based on the accelerometer readings.</p>
+        <a href="https://github.com/PepperMarioYT/Beach-Thing/releases/latest/download/server.zip" class="download-button">Download Server Files</a>
+    </div>
+
+    <div class="note">
+        <h3>Important Notes</h3>
+        <ul>
+            <li><strong>Volume Adjustment:</strong> The volume is dynamically boosted relative to the accelerometer to ensure you can hear music while in motion. Keep this in mind if you’re using the Car Thing while driving, as volume may increase with speed.</li>
+            <li><strong>iOS Users:</strong> We currently do not have access to a Mac, so iOS support is not yet available. Once we implement it, please note that you will need to approve the certificate for "PepperMarioYT" in your device settings to open the app. Alternatively, you can use <a href="https://altstore.io">AltStore</a> to sideload the app. iOS has strict certificate policies, and this step is required to run the app.</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
