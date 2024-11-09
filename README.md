@@ -1,7 +1,3 @@
-Got it! Here's your `README.md` with the syntax highlighting changed to **CMD** (Command Prompt) for Windows:
-
----
-
 # BeachThing GitHub Pages
 
 Welcome to **BeachThing**, a custom firmware designed for **Car Thing** by Spotify. BeachThing enhances your in-car experience by integrating Spotify and voice assistants such as Alexa, Siri, and Google Assistant, providing seamless control over your music and devices while on the go.
@@ -72,23 +68,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Spotify** for providing the **Car Thing** device.
 - **Voice Assistant APIs** (Alexa, Siri, Google Assistant) for integration.
 - **React** and **Node.js** for powering the app.
-
----
-
-### Key Syntax Highlighting Changes:
-
-- Code blocks are now wrapped with `cmd` for Command Prompt syntax highlighting, which is the appropriate syntax for Windows `cmd` commands.
-
-For example:
-
-```cmd
-git clone https://github.com/PepperMarioYT/Beach-Thing.git
-cd Beach-Thing
-```
-
-```cmd
-npm install
-npm run build
-```
-
-Let me know if this works, or if you'd like to adjust anything further!
